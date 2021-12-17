@@ -1,0 +1,24 @@
+nav{
+    margin: 10% 10% 0 10%;
+    font-size: 18px;
+}
+
+main{
+    margin: 0 10% 0 10%;
+}
+
+footer{
+    margin: 0% 10% 0 10%;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+}
+
+article{
+    margin: 0 5% 1% 5%;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
