@@ -1,22 +1,22 @@
 nav{
-    margin: 10% 10% 0 10%;
-    font-size: 18px;
+    margin: 5% 20% 0 20%;
+    font-size: 25px;
 }
 
 main{
-    margin: 0 10% 0 10%;
+    margin: 0 20% 0 20%;
 }
 
 footer{
-    margin: 0% 10% 0 10%;
-    font-size: 18px;
+    margin: 0% 20% 0 20%;
+    font-size: 25px;
     display: flex;
     justify-content: right;
 }
 
 article{
     margin: 0 5% 1% 5%;
-    font-size: 12pt;
+    font-size: 15pt;
     letter-spacing: 1px;
     text-align: justify;
 }
