@@ -1,0 +1,24 @@
+main{
+    margin: 0 20% 0 20%;
+}
+
+article{
+    margin: 0 0% 0% 0%;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.box>*{
+    padding: 0% 1% 0% 1%;
+    width: 45%;
+}
+
+
+

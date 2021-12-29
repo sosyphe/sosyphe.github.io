@@ -21,4 +21,12 @@ article{
     text-align: justify;
 }
 
+a{
+    color: darkgray;
+    text-decoration-style: double;
+}
+
+a:hover{
+    text-decoration-style: wavy;
+}
 
