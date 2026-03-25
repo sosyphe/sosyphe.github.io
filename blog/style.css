@@ -1,24 +1,104 @@
-main{
+nav {
+    margin: 5% 20% 0 20%;
+    font-size: 25px;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+main {
     margin: 0 20% 0 20%;
 }
 
-article{
-    margin: 0 0% 0% 0%;
+footer {
+    margin: 0 20% 5% 20%;
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+}
+
+article {
+    margin: 0 5% 1% 5%;
     font-size: 15pt;
     letter-spacing: 1px;
+    line-height: 1.9;
     text-align: justify;
 }
 
-.box {
+/* 引用三栏 */
+.quotes {
     display: flex;
-    flex-wrap: wrap;
+    gap: 2%;
     align-items: flex-start;
+    margin-bottom: 2rem;
 }
 
-.box>*{
-    padding: 0% 1% 0% 1%;
-    width: 45%;
+.quote-card {
+    flex: 1;
+    border-left: 2px solid #ccc;
+    padding-left: 1rem;
+    font-size: 13pt;
+    color: #444;
 }
 
+.quote-source {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 11pt;
+    color: #888;
+    text-align: right;
+}
 
+/* 分隔线 */
+.divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 2rem 0;
+}
 
+/* 正文区域 */
+.essay p {
+    margin-bottom: 1.2em;
+}
+
+.essay .dialogue {
+    color: #666;
+    padding-left: 1.5em;
+    border-left: 3px solid #ccc;
+    font-style: italic;
+    margin: 1.5em 0;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+/* 响应式 */
+@media (max-width: 900px) {
+    nav, main, footer {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    article {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .quotes {
+        flex-direction: column;
+    }
+
+    .quote-card {
+        width: 100%;
+    }
+}
